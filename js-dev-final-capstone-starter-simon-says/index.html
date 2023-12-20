@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <title>Simon Says</title>
+  </head>
+  <body>
+    <main>
+      <!--TODO: Add the missing information in the h1 heading -->
+      <h1 class="js-heading">Tedric Simon Says</h1>
+
+      <section class="game-controls">
+        
+        <span class="status hidden js-status"></span>
+
+          <div class="difficulty js-difficulty">
+            <input type="checkbox" id="1" name="difficulty" value="1">
+  <label for="1"> Level 1</label><br>
+  <input type="checkbox" id="2" name="difficulty" value="2">
+  <label for="2"> Level 2</label><br>
+  <input type="checkbox" id="3" name="difficulty" value="3">
+  <label for="3"> Level 3</label>
+  <input type="checkbox" id="4" name="difficulty" value="4">
+  <label for="4"> Level 4</label>
+          </div>
+        <button class='start-button js-start-button'>Start</button>
+    </section>
+     
+
+      <section class="pad-container unclickable js-pad-container">
+        <div class="pad pad-red js-pad-red" data-color="red"></div>
+        <!--TODO: Add the missing pads -->
+        <div class="pad pad-green js-pad-green" data-color="green"></div>
+        <div class="pad pad-blue js-pad-blue" data-color="blue"></div>
+        <div class="pad pad-yellow js-pad-yellow" data-color="yellow"></div>
+        
+      </section>
+    </main>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
